@@ -13,6 +13,45 @@
 // }
 // Console.WriteLine("Сумма = "+Sum);
 
+// Решение от Роман Коробков
+using System;
+namespace Mynamespase
+{
+    class Myclass
+    {
+        public static void Main(string[] args)
+        {
+            // Задача 26: Напишите программу, которая принимает на вход число и выдаёт количество цифр в числе.
+           /* void Number(string? data)
+            {
+                int number;
+                while(true)
+                {
+                    if(int.TryParse(data, out number))
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Ошибка ввода");
+                        data = Console.ReadLine();
+                    }
+                }
+                int num = (int)Math.Log10(number) + 1;
+                Console.WriteLine($"Здесь будет киличество цифр {num}");
+            }*/
+            
+
+           
+
+
+            Console.WriteLine("Введите число");
+            // Number(Console.ReadLine());
+        }
+    }
+}
+
+
 //==== Задача 26: Напишите программу, которая принимает на вход число и выдаёт количество цифр в числе.
 // 456 -> 3
 // 78 -> 2
@@ -65,12 +104,12 @@
 //нулями и единицами в случайном порядке.
 //[1,0,1,1,0,1,0,0]
 
- int[] arr = new int[8];
- for(int i = 0; i < 8; i++)
- {
-     arr[i] = new Random().Next(0, 2);
-       Console.Write($" {arr[i]}");
- }
+//  int[] arr = new int[8];
+//  for(int i = 0; i < 8; i++)
+//  {
+//      arr[i] = new Random().Next(0, 2);
+//        Console.Write($" {arr[i]}");
+//  }
 // Console.WriteLine($"[{String.Join(", ", arr)}]");
 
 
